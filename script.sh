@@ -29,7 +29,10 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update        #installing docker
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-sudo groupadd docker || true & sudo usermod -aG docker $USER & newgrp docker 
+if ! getent group docker > /dev/null: then
+    sudo groupadd docker
+fi
+sudo usermod -aG docker $USER
 curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="server --write-kubeconfig-mode 644" sh -  #installing k3s
 ## Postinstall 
 export KUBECONFIG=~/.kube/config
