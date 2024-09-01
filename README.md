@@ -12,12 +12,12 @@
 <br>
 <h2># Check installation
   <ul>
+    <li>python3.9 --version</li>
+    <li>ansible --version</li>
     <li>docker run hello-world</li>
     <li>sudo k3s kubectl get nodes</li>
     <li>sudo k3s kubectl get pods -A</li>
     <li>sudo k3s kubectl get pods -A -w</li>
-    <li>ansible --version</li>
-    <li>python3.9 --version</li>
   </ul>
   </h2>
 
