@@ -7,7 +7,7 @@
   <li> ssh-keygen -t ed25519</li>
   <li>sudo usermod -aG sudo $USER</li>
   <li>git clone https://github.com/avicityv/script-set-env</li>
-  <li>chmod -r 777 ./script-set-env</li>
+  <li>sudo chmod -R 777 ./script-set-env</li>
 </ul>
 <br>
 <h2># Check installation
