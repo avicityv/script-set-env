@@ -1,5 +1,5 @@
 # script-set-env
-<br>Setting environment on ubuntu ( git, vim, python, docker, k8s )
+<br>Setting environment on ubuntu ( git, vim, python, docker, k3s, ansible )
 <br><h1>After installing, script will reboot your system, dont forget about that.</h1>
 <br><b>Handwork:</b>
 <br>
