@@ -16,8 +16,6 @@
     <li>ansible --version</li>
     <li>docker run hello-world</li>
     <li>sudo k3s kubectl get nodes</li>
-    <li>sudo k3s kubectl get pods -A</li>
-    <li>sudo k3s kubectl get pods -A -w</li>
   </ul>
   </h2>
 
