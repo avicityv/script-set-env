@@ -1,9 +1,9 @@
 # script-set-env
-<br>Setting environment on ubuntu ( git, vim, python, docker, k8s )
-<br><b>!!!  YOU MUST EDIT <_USERNAME_> TO YOUR USER ON UBUNTU  !!!</b>
+<h1>After installing, script will reboot your system, dont forget about that.</h1>
+<br>Setting environment on ubuntu ( git, vim, python, docker, k8s, ansible )
 <br>
-<br>git clone https://github.com/avicityv/script-set-env
+<h3><br>git clone https://github.com/avicityv/script-set-env
 <br>chmod 777 ./script-set-env
-<br><b>nano ./script-set-env/script.sh</b>
+<br><b>./script-set-env/script.sh</b></h3>
 
 
