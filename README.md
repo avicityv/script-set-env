@@ -18,6 +18,6 @@
     <li>sudo k3s kubectl get nodes</li>
   </ul>
   </h2>
-
+<h2>CAN CAUSE ERRORS WITH WEB-SERVERS. BE CAREFUL!</h2>
 
 
